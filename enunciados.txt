@@ -1,0 +1,11 @@
+Usted ha creado una tabla USUARIO en la base de datos MIBASE, la cual contiene información de CI, Usuario, Password y otra de Persona con CI, Nombre completo, fecha de nacimiento, departamento (código de 2 digitos según INE); asimismo una tabla NOTA con CI, Sigla, nota1, nota2, nota3, notafinal. Realice lo siguiente:
+
+1.       Genere una pantalla con templates debidamente maquetado de acceso a la facultad y al menos tres carreras.
+
+2.       Genere un acceso por cada usuario, pudiendo el mismo cambiar los colores del template (de al menos 3 opciones).
+
+3.       Implemente una pantalla donde pueda visualizar sus notas.
+
+4.       Debe gestionar el ROL DOCENTE, el mismo debe tener la posibilidad de visualizar por departamento la media de notas por materia, solo código PHP bajando la consulta en un array (similar al case-when, pero sin usar estos).
+
+5.       La misma anterior, pero leer los resultados de una sola consulta SQL (case-when).
