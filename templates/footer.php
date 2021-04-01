@@ -1,4 +1,4 @@
-<h5>La Paz - Bolivia </h5>
-<h6>2021</h6>
+<h5><center>La Paz - Bolivia </center>  </h5>
+<h6><center>Primer Semeste - Gestion 2021 </center> </h6>
 </body>
 </html>
