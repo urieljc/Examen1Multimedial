@@ -1,24 +1,68 @@
-body{
-    background-color: burlywood;
+body {
+  background-color: burlywood;
 }
 
-#header{
-    background-color: lightblue;
-    margin-top: 5px;
+#header {
+  background-color: lightblue;
+  margin-top: 5px;
 }
-#header h1{
-    color: blue;
+#header h1 {
+  color: blue;
 }
-#header h2{
-    color: darkslategray;
+#header h2 {
+  color: darkslategray;
 }
-#header h3{
-    color: darkslateblue;
+#header h3 {
+  color: darkslateblue;
 }
 
-#login{
-    background-color: aliceblue;
-    width: 300px;
-    height: 350px;
-    
+#login {
+  background-color: aliceblue;
+  width: 300px;
+  height: 350px;
+  
+  
+  
 }
+#login div {
+    border-radius: 15px;
+    border-color: black;
+  padding: 20px;
+
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+  background-color: tan;
+}
+
+#login label {
+  margin: 15px;
+}
+#login input{
+    margin: 5px;
+}
+
+#menu{
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-left: 10px;
+  background-color: royalblue;
+}
+ #menu a{
+   padding: 6px 8px 6px 16px;
+   text-decoration: none;
+   font-size: 25px;
+   color: aquamarine;
+   display: block;
+ }
+
+ #menu a:hover{
+   color: brown;
+ }
+

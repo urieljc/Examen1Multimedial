@@ -1,8 +1,11 @@
+
+<center>
 <div id="login" >
 <h1>Ingreso</h1>
-<form action="" method="post">
+
+    <form action="" method="post">
    <div> 
-       <label for="nombre">Nombre</label>
+       <label for="nombre">Usuario</label>
        <br>
         <input type="text" name="nombre" id="nombre">
     </div>
@@ -13,7 +16,12 @@
     </div>
     <div>
         <input type="submit" value="Aceptar">
+        <a href="paginas/principal.php">Aceptar</a>
         <input type="button" value="Cancelar">
     </div>
 </form>
+
+
 </div>
+
+</center>
