@@ -14,6 +14,7 @@
 </div>
 <br>
 <br>
+<form action="">
 <label for="colores">Color de Fondo</label>
 <select name="colores" id="colores">
     <option value=""></option>
@@ -21,6 +22,11 @@
     <option value="">Azul</option>
     <option value="">Verde</option>
 </select>
+<input type="submit" value="Aceptar">
+</form>
+<br>
+
+<a href="">Salir</a>
 </div>
 
 <?php include "../templates/footer.php";?>
