@@ -90,7 +90,7 @@ if (isset($ci)) {
             <?php
             } else {
             ?>
-                <h2>Usted no es Estudiante</h2>
+                <h2>Usted no es Docente</h2>
             <?php
             }
             ?>
