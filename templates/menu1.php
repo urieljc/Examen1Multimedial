@@ -1,5 +1,5 @@
 <div id="menu">
-    <a href="principal.php">Principal</a>
+    <a href="../principal.php">Principal</a>
     <br>
     <a href="../paginas/notasE.php" >Pregunta Notas Estudiantes</a>
     <br>

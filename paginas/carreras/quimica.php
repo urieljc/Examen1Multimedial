@@ -1,8 +1,8 @@
 <?php  include "../../templates/header.php";
-    include "../../templates/menu.php";
+    include "../../templates/menu1.php";
 ?>
 <div id="cuerpo">
-<p> Bienvenido UsuarioS - Categoria</p>
+
 <div id="carrera">
     <h2>Bienvenido a la Carrera de Quimica</h2>
     

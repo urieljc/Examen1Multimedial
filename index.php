@@ -1,4 +1,4 @@
-<?php include "templates/header.php"; ?>
-    
-<?php include "login/login.php";?>
-<?php include "templates/footer.php"; ?>
+<?php include "templates/header.php"; 
+include "config.php";
+include "login/login.php";
+ include "templates/footer.php"; ?>
