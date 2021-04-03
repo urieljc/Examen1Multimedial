@@ -24,7 +24,7 @@ if (isset($ci)) {
                 $datos = "SELECT U.CARRERA,N.SIGLA,N.Nota1,N.Nota2,N.Nota3,N.NotaFinal FROM USUARIO U INNER JOIN NOTAS N ON U.CI=N.CI WHERE U.CI='$ci'";
                 $resultado = mysqli_query($con, $datos);
                 $filas = mysqli_num_rows($resultado);
-                $columnas=mysqli_num_fields($resultado);
+                $columnas = mysqli_num_fields($resultado);
                 $ret = mysqli_fetch_array($resultado);
                 //echo $filas;
                 //echo $columnas;
@@ -32,7 +32,7 @@ if (isset($ci)) {
                 <h2>Usted es estudiante de <?php echo $ret['CARRERA']   ?></h2>
                 <br>
                 <br>
-                <table id="notasE" border="1px solid blanck" >
+                <table id="notasE" border="1px solid blanck">
                     <tr>
                         <th style="background-color: #4CAF50;
   color: white;">Sigla</th>
@@ -45,7 +45,7 @@ if (isset($ci)) {
                         <th style="background-color: #4CAF50;
   color: white;">Nota Final</th>
                     </tr>
-                    <tr >
+                    <tr>
                         <?php
                         while ($filas1 = mysqli_fetch_row($resultado)) {
                             //print_r($fila);
@@ -55,7 +55,7 @@ if (isset($ci)) {
                             echo "<td>" . $filas1[3] . "</td>";
                             echo "<td>" . $filas1[4] . "</td>";
                             echo "<td>" . $filas1[5] . "</td>";
-                            
+
                             echo "</tr>";
                         }
                         ?>

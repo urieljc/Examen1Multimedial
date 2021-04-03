@@ -47,7 +47,7 @@ INSERT INTO USUARIO (CI,USUARIO,PASSWORD,ROL,CARRERA) VALUES ('6065841','e17','1
 
 INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('6157061','quimica organica','10','15','20','45');
 INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('6157061','quimica inorganica','21','15','20','56');
-INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('6157061','laboratorio','0','15','10','25');
+INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('6157061','Laboratorio','0','15','10','25');
 INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('4567891','Multimedial','25','25','21','71');
 INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('4567891','Sistemas Paralelos','15','24','27','66');
 INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('4567891','Robotica','0','15','24','39');
@@ -73,7 +73,7 @@ INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('9090009','Calc
 INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('1111222','Estadistica 2','23','23','24','70');
 INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('1111222','Muestreo','21','19','21','61');
 INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('1111222','Categorizacion','18','12','21','51');
-INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('3355669','Inf-111','15','15','15','45');
+INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('3355669','inf-111','15','15','15','45');
 INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('3355669','lab-111','10','20','25','55');
 INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('3355669','inf-112','20','10','25','55');
 INSERT INTO NOTAS (CI,SIGLA,Nota1,Nota2,Nota3,NotaFinal) VALUES ('3355669','lab-112','25','20','10','55');
