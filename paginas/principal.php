@@ -1,6 +1,7 @@
 <?php  include "../templates/header.php";
     include "../templates/menu.php";
     include "../config.php";
+    require_once  "datos.php";
     session_start();
     if(isset($_SESSION["ci"])){
     
@@ -14,10 +15,14 @@
     $nombre=$ret['NOMBRE'];
     $apellido=$ret['APELLIDO'];
     $rol=$ret['ROL'];
+    $_SESSION["rol"]=$rol;
+    $persona=new modelo;
+    $persona->almacenar($ci,$nombre,$apellido,$rol);
 
 ?>
 <div id="cuerpo">
-<p>  Bienvenido <?php echo $nombre." ".$apellido." - ".$rol;      ?>  </p> 
+<p>  Bienvenido <?php echo $nombre." ".$apellido." - ".$rol;      
+      ?>  </p> 
       
     
 <div id="carrera">
