@@ -5,5 +5,5 @@
     <br>
     <a href="../paginas/notasDocPhp.php">Pregunta Notas Docente - PHP </a>
     <br>
-    <a href="">Pregunta Notas Docente - SQL</a>
+    <a href="../paginas/notasDocSql.php">Pregunta Notas Docente - SQL</a>
 </div>

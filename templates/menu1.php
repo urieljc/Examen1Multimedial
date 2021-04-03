@@ -1,9 +1,9 @@
 <div id="menu">
     <a href="../principal.php">Principal</a>
     <br>
-    <a href="../paginas/notasE.php" >Pregunta Notas Estudiantes</a>
+    <a href="../notasE.php" >Pregunta Notas Estudiantes</a>
     <br>
-    <a href="">Pregunta Notas Docente - PHP </a>
+    <a href="../notasDocPhp.php">Pregunta Notas Docente - PHP </a>
     <br>
-    <a href="">Pregunta Notas Docente - SQL</a>
+    <a href="../notasDocSql.php">Pregunta Notas Docente - SQL</a>
 </div>
